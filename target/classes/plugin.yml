@@ -1,0 +1,10 @@
+name: FlexTab
+version: 1.0.0
+author: FlexKleks
+
+main: io.github.flexkleks.lucktab.FlexTab
+
+commands:
+  flextab:
+    aliases:
+      - ft

@@ -1,0 +1,11 @@
+io\github\flexkleks\lucktab\commands\FlexTabCommand.class
+io\github\flexkleks\lucktab\metrics\MetricsLite$1.class
+io\github\flexkleks\lucktab\build\TabListBuilder.class
+io\github\flexkleks\lucktab\config\FileBuilder.class
+io\github\flexkleks\lucktab\metrics\MetricsLite.class
+io\github\flexkleks\lucktab\cache\CacheMethods.class
+io\github\flexkleks\lucktab\listener\PlayerJoinListener.class
+io\github\flexkleks\lucktab\cache\CacheUser.class
+io\github\flexkleks\lucktab\cache\RankCache.class
+io\github\flexkleks\lucktab\FlexTab.class
+io\github\flexkleks\lucktab\listener\AsyncPlayerChatListener.class

@@ -1,0 +1,120 @@
+##############################################################
+#                                                            #
+#         __    _               _____          _             #
+#        | __| | |  ___  __ __ |_   _|  __ _  | |__          #
+#        | _|  | | / -_) \ \ /   | |   / _` | | '_ \         #
+#        |_|   |_| \___| /_\_\   |_|   \__,_| |_.__/         #
+#                                                            #
+#    Development by FlexKleks |>                             #
+#    Version: v1.0                                           #
+#    Discord: https://discord.gg/Vp44xNWVvx                  #
+#                                                            #
+#                                                            #
+##############################################################
+
+
+# Settings for the prefixes.
+# Note:
+#     Line 1 -> Prefix chat.
+#     Line 2 -> Prefix tablist.
+#     Line 3 -> Suffix. (Nothing for no suffix)
+#     Line 4 -> Group. (Your group of LuckPerms)
+#     Line 5 -> Priority. (Sorting)
+settings:
+  tablist:
+    owner:
+      - "&4Owner &8| &4"
+      - "&4Owner &8| &7"
+      - ""
+      - "owner"
+      - 01
+    admin:
+      - "&4Administrator &8| &7"
+      - "&4Admin &8| &7"
+      - ""
+      - "admin"
+      - 02
+    developer:
+      - "&bDeveloper &8| &7"
+      - "&bDev &8| &7"
+      - ""
+      - "developer"
+      - 03
+    srmoderator:
+      - "&cSr-Moderator &8| &7"
+      - "&cSr-Moderator &8| &7"
+      - "Test"
+      - "srmoderator"
+      - 04
+    content:
+      - "&dContent &8| &7"
+      - "&dContent &8| &7"
+      - ""
+      - "content"
+      - 05
+    moderator:
+      - "&cModerator &8| &7"
+      - "&cModerator &8| &7"
+      - ""
+      - "moderator"
+      - 06
+    builder:
+      - "&eBuilder &8| &7"
+      - "&eBuilder &8| &7"
+      - ""
+      - "builder"
+      - 07
+    supporter:
+      - "&2Supporter &8| &7"
+      - "&2Supporter &8| &7"
+      - ""
+      - "supporter"
+      - 08
+    jrdeveloper:
+      - "&bJr-Developer &8| &7"
+      - "&bJr-Developer &8| &7"
+      - ""
+      - "jrdeveloper"
+      - 09
+    jrbuilder:
+      - "&eJr-a &8| &7"
+      - "&eJr-Builder &8| &7"
+      - ""
+      - "jrbuilder"
+      - 010
+    trainee:
+      - "&aTrainee &8| &7"
+      - "&aTrainee &8| &7"
+      - ""
+      - "trainee"
+      - 011
+    friend:
+      - "&cFriend &8| &7"
+      - "&cFriend &8| &7"
+      - ""
+      - "friend"
+      - 012
+    youtuber:
+      - "&5YouTuber &8| &7"
+      - "&5YouTUber &8| &7"
+      - ""
+      - "youtuber"
+      - 013
+    premium:
+      - "&6Premium &8| &7"
+      - "&6Premium &8| &7"
+      - ""
+      - "premium"
+      - 014
+    default:
+      - "&7"
+      - "&7"
+      - ""
+      - "default"
+      - 015
+
+  # Placeholder -> {PLAYER}, {DISPLAYNAME}, {PAYERGROUP}, {PREFIX}, {SUFFIX} {MESSAGE}
+  # {PREFIX} -> Tablist Prefix
+  # {SUFFIX} -> Tablist Suffix
+  chat:
+    format: "{PREFIX}{PLAYER} §8» §7{MESSAGE}"
